@@ -1,0 +1,6 @@
+version: "3"
+services:
+  notebook:
+    image: d3f0/iota-mara
+    ports:
+      - 8888:8888
