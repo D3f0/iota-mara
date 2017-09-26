@@ -1,4 +1,4 @@
 FROM jupyter/base-notebook
 RUN pip install ipywidgets
 RUN jupyter nbextension enable --py widgetsnbextension
-COPY notebook/ /home/jovyan
+COPY notebooks/ /home/jovyan
